@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class BookstoreTest {
-    static List<Book> books = new ArrayList<>();
-    static Scanner scanner = new Scanner(System.in);
+    private static List<Book> books = new ArrayList<>();
+    private static final Scanner scanner = new Scanner(System.in);
 
     static void createBook() {
         System.out.print("Title: ");
